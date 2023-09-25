@@ -14,6 +14,9 @@
 		3B2DC2ED2AC1AF08008AE6F6 /* Pridicate_Macro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DC2EB2AC1AF08008AE6F6 /* Pridicate_Macro.xcdatamodeld */; };
 		3B2DC2EF2AC1AF09008AE6F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2DC2EE2AC1AF09008AE6F6 /* Assets.xcassets */; };
 		3B2DC2F22AC1AF09008AE6F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2DC2F02AC1AF09008AE6F6 /* LaunchScreen.storyboard */; };
+		3B2DC2FA2AC1B11F008AE6F6 /* PersonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DC2F92AC1B11F008AE6F6 /* PersonData.swift */; };
+		3B2DC2FC2AC1B14B008AE6F6 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DC2FB2AC1B14B008AE6F6 /* PersonViewModel.swift */; };
+		3B2DC2FE2AC1B1A1008AE6F6 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DC2FD2AC1B1A1008AE6F6 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		3B2DC2EE2AC1AF09008AE6F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B2DC2F12AC1AF09008AE6F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B2DC2F32AC1AF09008AE6F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B2DC2F92AC1B11F008AE6F6 /* PersonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonData.swift; sourceTree = "<group>"; };
+		3B2DC2FB2AC1B14B008AE6F6 /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
+		3B2DC2FD2AC1B1A1008AE6F6 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		3B2DC2FF2AC1BBCE008AE6F6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +49,7 @@
 		3B2DC2D62AC1AF08008AE6F6 = {
 			isa = PBXGroup;
 			children = (
+				3B2DC2FF2AC1BBCE008AE6F6 /* README.md */,
 				3B2DC2E12AC1AF08008AE6F6 /* Pridicate_Macro */,
 				3B2DC2E02AC1AF08008AE6F6 /* Products */,
 			);
@@ -59,13 +67,16 @@
 			isa = PBXGroup;
 			children = (
 				3B2DC2E22AC1AF08008AE6F6 /* AppDelegate.swift */,
+				3B2DC2FD2AC1B1A1008AE6F6 /* APIManager.swift */,
 				3B2DC2E42AC1AF08008AE6F6 /* SceneDelegate.swift */,
 				3B2DC2E62AC1AF08008AE6F6 /* ViewController.swift */,
+				3B2DC2FB2AC1B14B008AE6F6 /* PersonViewModel.swift */,
 				3B2DC2E82AC1AF08008AE6F6 /* Main.storyboard */,
 				3B2DC2EE2AC1AF09008AE6F6 /* Assets.xcassets */,
 				3B2DC2F02AC1AF09008AE6F6 /* LaunchScreen.storyboard */,
 				3B2DC2F32AC1AF09008AE6F6 /* Info.plist */,
 				3B2DC2EB2AC1AF08008AE6F6 /* Pridicate_Macro.xcdatamodeld */,
+				3B2DC2F92AC1B11F008AE6F6 /* PersonData.swift */,
 			);
 			path = Pridicate_Macro;
 			sourceTree = "<group>";
@@ -144,7 +155,10 @@
 				3B2DC2E72AC1AF08008AE6F6 /* ViewController.swift in Sources */,
 				3B2DC2E32AC1AF08008AE6F6 /* AppDelegate.swift in Sources */,
 				3B2DC2ED2AC1AF08008AE6F6 /* Pridicate_Macro.xcdatamodeld in Sources */,
+				3B2DC2FC2AC1B14B008AE6F6 /* PersonViewModel.swift in Sources */,
+				3B2DC2FA2AC1B11F008AE6F6 /* PersonData.swift in Sources */,
 				3B2DC2E52AC1AF08008AE6F6 /* SceneDelegate.swift in Sources */,
+				3B2DC2FE2AC1B1A1008AE6F6 /* APIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

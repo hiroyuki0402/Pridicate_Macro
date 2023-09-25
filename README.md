@@ -1,2 +1,1 @@
-#  <#Title#>
-
+#  Macro Pridicateの使い方
